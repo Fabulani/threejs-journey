@@ -1,0 +1,35 @@
+{
+	"name": "Node.js",
+	"image": "node:lts",
+	"forwardPorts": [
+		5173
+	],
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"editor.indentSize": 2,
+				"editor.rulers": [
+					{
+						"column": 80,
+						"color": "#ffffff0b"
+					},
+					{
+						"column": 120,
+						"color": "#ffffff0b"
+					}
+				]
+			},
+			"extensions": [
+				"wayou.vscode-todo-highlight",
+				"formulahendry.auto-complete-tag",
+				"ms-vscode.vscode-typescript-next",
+				"task.vscode-task",
+				"antfu.vite",
+				"vitest.explorer",
+				"Vue.volar",
+				"formulahendry.auto-close-tag",
+				"formulahendry.auto-rename-tag"
+			]
+		}
+	}
+}
